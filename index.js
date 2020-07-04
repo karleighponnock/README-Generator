@@ -19,18 +19,30 @@ const questions = [
         message: "Table Of Contents"
     },
     {
-        name: "installation",
+        name: "usage",
         type: "input",
-        message: "Installation"
+        message: "How will this program be used?"
     },
-    
-
-    // Usage
-    // License
-    // Contributing
-    // Tests
-    // Questions
-
+    {
+        name: "license",
+        type: "input",
+        message: "What licensing would you like to use?"
+    },
+    {
+        name: "contribution",
+        type: "input",
+        message: "Who contributed to this project?"
+    },
+    {
+        name: "tests",
+        type: "input",
+        message: "What kind of tests did you run for this project"
+    },
+    {
+        name: "questions",
+        type: "input",
+        message: "Questions:"
+    },
 ];
 
 function prompt() {
