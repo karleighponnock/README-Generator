@@ -5,7 +5,11 @@ const fs = require("fs");
 function generateMarkdown(data) {
   return `# ${data.description}
 ${data.tableOfContents}
-${data.installation}
+${data.usage}
+${data.license}
+${data.contribution}
+${data.tests}
+${data.questions}
 `;
 }
 
